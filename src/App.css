@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+.container-box {
+  background: radial-gradient(
+      39.33% 60.33% at 15% 60%,
+      rgb(31, 59, 42) 20%,
+      rgb(39, 42, 49) 100%
+    )
+    center center / cover;
+  backdrop-filter: blur(2.8px);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+
+}
+
+.Mui-selected{
+  background-color: #101215 !important; 
+}
+
+.MuiDrawer-paper{
+  position: sticky !important;
+  top:0
+}
