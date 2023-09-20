@@ -1,27 +1,18 @@
-# React + TypeScript + Vite
+# Reslink Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Assignment for FrontEnd Intern at Reslink
 
-Currently, two official plugins are available:
+![image](https://github.com/8rxn/reslink-asmt/assets/75237697/dd663475-efdd-4e05-a556-1d4375feac27)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://github.com/8rxn/reslink-asmt/assets/75237697/6b581860-9877-4f87-b218-25f9a053489b" width="250">
+<img src="https://github.com/8rxn/reslink-asmt/assets/75237697/6c14f5c0-d4a4-42b1-b00a-5882457a784f" width="250">
+<img src="https://github.com/8rxn/reslink-asmt/assets/75237697/d47cdb60-5273-49f6-a5b8-192949326e5b" width="250">
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+# Stack
+The application uses Vite, React and Typescript along with Material UI for all components.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Thanks for having a look ❤️
