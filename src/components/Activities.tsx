@@ -1,5 +1,5 @@
 import { Stack, Box, Typography, Divider, useMediaQuery } from "@mui/material";
-import { activities, colorCodes, project } from "./config";
+import { activities, colorCodes, } from "./config";
 
 const Projects = () => {
   return (

@@ -5,6 +5,9 @@ import projects from "../assets/icons/projects.svg";
 import support from "../assets/icons/support.svg";
 import settings from "../assets/icons/settings.svg";
 import person from "../assets/icons/person.svg";
+import jobs from "../assets/icons/jobs.svg";
+import eye from "../assets/icons/eye.svg";
+import proposals from "../assets/icons/proposals.svg";
 
 export const sidebarOptions = [
   {
@@ -51,17 +54,17 @@ export const stats = [
   {
     title: "Proposals",
     value: "04",
-    icon: person,
+    icon: proposals,
   },
   {
     title: "Active Jobs",
     value: "03",
-    icon: person,
+    icon: jobs,
   },
   {
     title: "application",
     value: "240",
-    icon: person,
+    icon: eye,
   },
 ];
 
