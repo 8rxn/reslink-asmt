@@ -15,11 +15,13 @@ const Projects = () => {
       maxWidth={"80vw"}
       margin={"auto"}
     >
-      <Box p={2}>
+      <Stack p={2} justifyContent={"space-between"} direction={"row"}>
         <Typography variant="h5" color="white" fontWeight={500}>
           Posted Projects
         </Typography>
-      </Box>
+
+        <a href="#">See All</a>
+      </Stack>
       <Divider variant="fullWidth" sx={{ bgcolor: "white" }} />
       <Stack p={2} direction={"column"}>
         {project.map((item, index) => (
